@@ -1,0 +1,23 @@
+
+Microsoft 365 live recommendation status
+Tenant: a3eba182-4cc2-4ba3-82e8-3a97e2fabdd6 | Checked at: 2026-10-28 05:56:07Z
+MFA results check enabled configuration; complete coverage and registration are advisory.
+Registration data can lag by up to 36 hours. UNKNOWN means not verified, not necessarily unconfigured.
+
+
+Number Status      Recommendation
+------ ------      --------------                                                                    
+     1 IMPLEMENTED Ensure multifactor authentication is enabled for all users in administrative roles
+     2 IMPLEMENTED Ensure multifactor authentication is enabled for all users
+     3 IMPLEMENTED Enable Conditional Access policies to block legacy authentication
+     4 IMPLEMENTED Enable Microsoft Entra ID Identity Protection sign-in risk policies
+     5 IMPLEMENTED Enable Microsoft Entra ID Identity Protection user risk policies
+     6 IMPLEMENTED Ensure user consent to apps accessing company data on their behalf is not allowed
+     7 UNKNOWN     Only invited users should be automatically admitted to Teams meetings
+     8 UNKNOWN     Configure which users are allowed to present in Teams meetings
+     9 UNKNOWN     Restrict anonymous users from joining meetings
+    10 IMPLEMENTED Ensure 'Self service password reset enabled' is set to 'All'
+
+
+Summary: 7 implemented, 0 not configured, 3 unknown (10 recommendations).
+Snapshot: C:\SecureM365Snapshots\a3eba182-4cc2-4ba3-82e8-3a97e2fabdd6-m365-recommendation-status-20261028-055607162Z.json
